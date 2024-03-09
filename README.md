@@ -23,7 +23,7 @@
    Open RStudio and run the following command in the console: 
 
    ```
-   "install.packages(c('tidyverse', 'flexdashboard', 'knitr', 'plotly', 'shiny', 'RColorBrewer', 'stringr', 'shinymanager', 'shinythemes', 'shinyTime', 'DT', 'highcharter', 'readr', 'ggsankey', 'lubridate',    'httr', 'blockrand'), dependencies = TRUE, repo='http://cran.r-project.org')"
+   install.packages(c('tidyverse', 'flexdashboard', 'knitr', 'plotly', 'shiny', 'RColorBrewer', 'stringr', 'shinymanager', 'shinythemes', 'shinyTime', 'DT', 'highcharter', 'readr', 'ggsankey', 'lubridate',    'httr', 'blockrand'), dependencies = TRUE, repo='http://cran.r-project.org')
    ```
 
 ## Step 3: Run the Dashboard
