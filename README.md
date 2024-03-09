@@ -10,7 +10,7 @@
    PS:\Users\ntedesco>
    ```
 
-   Next, navigate to your desired location. For example, I would like to download all files in the repository to my `Projects` folder within `Documents`. *NOTE: Cloning the repo will automatically create a folder for all downloaded files.*
+   Next, navigate to your desired location. For example, I would like to download all files in the repository to my `Projects` folder within `Documents`. *NOTE: Cloning the repo will automatically create a folder for all downloaded files, so no need to manually create a `dashboard` folder.*
 
    ```
    cd Documents\dashboard
