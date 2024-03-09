@@ -18,7 +18,15 @@
 
 ## Step 2: Install Packages 
 
-   
+   The most efficient way to share applications across different machines without having to worry about package conflicts is to use a Docker container. However, this process is a bit involved, so let's just try manually installing the R packages necessary for the dashboard. 
+
+   Open R and run the following command: 
+
+   `install.packages(c("))
+
+   When you attempt to run the dashboard, it will throw an error mentioning any missing packages - let me know if this happens to you. 
+
+## Step 3: Run the Dashboard
 
    
 
