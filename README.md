@@ -6,15 +6,21 @@
 
    If on Windows, open Powershell; if on Mac, open Terminal. You will be met with a command prompt displaying your current working directory: 
 
-   `PS:\Users\ntedesco>`
+   ```
+   PS:\Users\ntedesco>
+   ```
 
    Next, navigate to your desired location. I would like to install the files within the `dashboard` subfolder of my `Documents` folder. 
 
-   `PS:\Users\ntedesco> cd Documents\dashboard`
+   ```
+   PS:\Users\ntedesco> cd Documents\dashboard
+   ```
 
    Finally, download all files from this repository into the target destination: 
 
-   `PS:\Users\ntedesco\Documents\dashboard> git clone https://github.com/ntedesco-umich/SMART-dashboard/`
+   ```
+   PS:\Users\ntedesco\Documents\dashboard> git clone https://github.com/ntedesco-umich/SMART-dashboard/
+   ```
 
 ## Step 2: Install Packages 
 
