@@ -10,16 +10,16 @@
    PS:\Users\ntedesco>
    ```
 
-   Next, navigate to your desired location. I would like to install the files within the `dashboard` subfolder of my `Documents` folder. 
+   Next, navigate to your desired location. For example, I would like to download all files in the repository to my `Projects` folder within `Documents`. *NOTE: Cloning the repo will automatically create a folder for all downloaded files.*
 
    ```
-   PS:\Users\ntedesco> cd Documents\dashboard
+   cd Documents\dashboard
    ```
 
    Finally, download all files from this repository into the target destination: 
 
    ```
-   PS:\Users\ntedesco\Documents\dashboard> git clone https://github.com/ntedesco-umich/SMART-dashboard/
+   git clone https://github.com/ntedesco-umich/SMART-dashboard/
    ```
 
 ## Step 2: Install Packages 
