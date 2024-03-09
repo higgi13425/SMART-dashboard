@@ -26,10 +26,12 @@
 
    The most efficient way to share applications across different machines without having to worry about package conflicts is to use a Docker container. However, this process is a bit involved, so let's just try manually installing the R packages necessary for the dashboard. 
 
-   Open RStudio and run the following command in the console: 
+   Open RStudio and run the following commands in the console: 
 
    ```
-   install.packages(c('tidyverse', 'flexdashboard', 'knitr', 'plotly', 'shiny', 'RColorBrewer', 'stringr', 'shinymanager', 'shinythemes', 'shinyTime', 'DT', 'highcharter', 'readr', 'ggsankey', 'lubridate', 'httr', 'blockrand'), dependencies = TRUE, repo='http://cran.r-project.org')
+   install.packages(c('devtools', 'tidyverse', 'flexdashboard', 'knitr', 'plotly', 'shiny', 'RColorBrewer', 'stringr', 'shinymanager', 'shinythemes', 'shinyTime', 'DT', 'highcharter', 'readr', 'lubridate', 'httr', 'blockrand'), dependencies = TRUE, repo='http://cran.r-project.org')
+
+   devtools::install_github("davidsjoberg/ggsankey")
    ```
 
 ## Step 3: Run the Dashboard
