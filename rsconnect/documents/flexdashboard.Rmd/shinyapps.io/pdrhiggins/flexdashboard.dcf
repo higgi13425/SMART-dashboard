@@ -1,0 +1,12 @@
+name: flexdashboard
+title: flexdashboard
+username: pdrhiggins
+account: pdrhiggins
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11672768
+bundleId: 8456117
+url: https://pdrhiggins.shinyapps.io/flexdashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -114,8 +114,8 @@ valueBox(
 valueBox(
   value = sprintf('%i (%.0f%%)', n_excluded, n_excluded_percent),
   caption = 'excluded due to eligilibity requirements',
-  color = 'orange',
-  icon = 'ion-ios-flag'
+  color = 'yellow',
+  icon = 'ion-android-cancel'
 )
 
 ```
@@ -127,8 +127,8 @@ valueBox(
 valueBox(
   value = sprintf('%i (%.0f%%)', n_refused, n_refused_percent),
   caption = 'refused informed consent',
-  color = 'orange',
-  icon = 'ion-android-clipboard'
+  color = 'salmon',
+  icon = 'ion-android-car'
 )
 
 ```
@@ -140,7 +140,7 @@ Row {data-height=70%}
 
 ```{r out.width = '100%', out.height = '100%'}
 
-colors <- rev(brewer.pal(n = 4, name = 'Blues'))
+colors <- rev(brewer.pal(n = 4, name = 'Purples'))
 colors <- c(colors[1], colors[3], colors[2], colors[4])
 
 tm_data <- data_to_hierarchical(
