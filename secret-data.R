@@ -10,7 +10,8 @@
 # REDCap data ------------------------------------------------------------
 # ========================================================================
 
-secret_token <- "DE1F9DD5BA38BD83791C69EA6F03A23C"
+# secret_token <- "DE1F9DD5BA38BD83791C69EA6F03A23C"
+secret_token <- redcap_token
 secret_url   <- "https://redcap-p-a.umms.med.umich.edu/api/"
 
 
